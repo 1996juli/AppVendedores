@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.View.SocioFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        card_view:cardCornerRadius="15dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/Linear1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/Nombre"
+                    android:layout_width="60dp"
+                    android:textSize="16dp"
+                    android:layout_height="35dp"
+                    android:paddingTop="10dp"
+                    android:paddingStart="10dp"
+                    android:text="Socio :"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/NombreValue"
+                    android:layout_width="320dp"
+                    android:layout_height="35dp"
+                    android:paddingTop="10dp"
+                    android:paddingStart="10dp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Estado"
+                    android:layout_width="80dp"
+                    android:layout_height="35dp"
+                    android:textSize="16dp"
+                    android:paddingTop="10dp"
+                    android:paddingStart="10dp"
+                    android:text="Estado :"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/EstadoValue"
+                    android:layout_width="300dp"
+                    android:layout_height="35dp"
+                    android:paddingTop="10dp"
+                    android:paddingStart="10dp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Motivo"
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:textSize="16dp"
+                    android:paddingTop="10dp"
+                    android:paddingStart="10dp"
+                    android:text="Motivo baja :"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/MotivoValue"
+                    android:layout_width="270dp"
+                    android:layout_height="35dp"
+                    android:paddingTop="10dp"
+                    android:paddingStart="10dp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Plan"
+                    android:layout_width="60dp"
+                    android:textSize="16dp"
+                    android:layout_height="35dp"
+                    android:paddingTop="10dp"
+                    android:paddingStart="10dp"
+                    android:text="Plan:"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/PlanValue"
+                    android:layout_width="320dp"
+                    android:layout_height="35dp"
+                    android:paddingTop="10dp"
+                    android:paddingStart="10dp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Cuota"
+                    android:layout_width="65dp"
+                    android:textSize="16dp"
+                    android:layout_height="35dp"
+                    android:paddingTop="10dp"
+                    android:paddingStart="10dp"
+                    android:text="Cuota :"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/CuotaValue"
+                    android:layout_width="320dp"
+                    android:layout_height="35dp"
+                    android:paddingTop="10dp"
+                    android:paddingStart="10dp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Telefono"
+                    android:layout_width="85dp"
+                    android:textSize="16dp"
+                    android:layout_height="35dp"
+                    android:paddingTop="10dp"
+                    android:paddingStart="10dp"
+                    android:text="Teléfono :"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TelefonoValue"
+                    android:layout_width="300dp"
+                    android:layout_height="35dp"
+                    android:paddingTop="10dp"
+                    android:paddingStart="10dp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Zona"
+                    android:layout_width="60dp"
+                    android:textSize="16dp"
+                    android:layout_height="35dp"
+                    android:paddingTop="10dp"
+                    android:paddingStart="10dp"
+                    android:text="Zona :"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ZonaValue"
+                    android:layout_width="320dp"
+                    android:layout_height="35dp"
+                    android:paddingTop="10dp"
+                    android:paddingStart="10dp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Vendedor"
+                    android:layout_width="90dp"
+                    android:layout_height="35dp"
+                    android:paddingStart="10dp"
+                    android:paddingTop="10dp"
+                    android:text="Vendedor :"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/VendedorValue"
+                    android:layout_width="290dp"
+                    android:layout_height="35dp"
+                    android:paddingStart="10dp"
+                    android:paddingTop="10dp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="245dp"
+                android:paddingTop="8dp">
+
+                <Button
+                    android:id="@+id/BTNDerivar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginEnd="8dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="DERIVAR"
+                    android:textAlignment="center">
+
+                </Button>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>
